@@ -6,7 +6,7 @@ import toml
 BASE_PATH = Path("../../matrix.org")
 ECOSYSTEM_PATH = BASE_PATH / "content/ecosystem/"
 
-output_json = {"client": [], "provider": [], "sdk": [], "integration": []}
+output_json = {"client": [], "provider": [], "sdk": [], "integration": [], "server": []}
 
 clients_path = (ECOSYSTEM_PATH / "clients").glob("*.md")
 id = 0
@@ -50,6 +50,15 @@ for provider in providers["providers"]:
     provider_json["id"] = id
     del provider_json["image"]
     output_json["provider"].append(provider_json)
+    id += 1
+
+servers_path = ECOSYSTEM_PATH / "servers" / "servers.toml"
+servers = toml.load(servers_path)
+id = 0
+for server in servers["servers"]:
+    server_json = server
+    server_json["id"] = id
+    output_json["server"].append(server_json)
     id += 1
 
 with open("../knowledge_base_data.json", "w", encoding="utf-8") as f:

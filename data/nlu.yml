@@ -14,13 +14,13 @@ nlu:
     - good morning
     - good evening
     - hey there
-    - Hi
 - intent: goodbye
   examples: |
     - bye
     - goodbye
     - see you around
     - see you later
+    - thank you
 - intent: query_knowledge_base
   examples: |
     - What [matrix clients]{"entity": "object_type", "value": "client"} can you recommend?
@@ -29,6 +29,13 @@ nlu:
     - Which matrix tools can you recommend with an [Apache-2.0](licence) licence?
     - Which tools are using the [Apache-2.0](licence) licence?
     - Which tools are using the [MIT](licence) Licence?
+    - Where can I [host]{"entity": "object_type", "value": "provider"} my Homeserver?
+    - Which [Homeserver]{"entity": "object_type", "value": "server"} options exist?
+- synonym: Homeserver
+  examples: |
+    - Homeserver
+    - Server
+    - Serversoftware
 - synonym: client
   examples: |
     - matrix clients
