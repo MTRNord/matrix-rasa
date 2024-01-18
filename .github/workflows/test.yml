@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Rasa Train and Test GitHub Action
-        uses: RasaHQ/rasa-train-test-gha@v2
+        uses: RasaHQ/rasa-train-test-gha@2.2.0
         with:
           requirements_file: requirements.txt
           data_validate: true
