@@ -5,12 +5,12 @@ intents:
 - greet
 - query_knowledge_base
 entities:
+- licence
 - attribute
 - object_type
 - clients
 - mention
 - client
-
 slots:
   object_type:
     type: text
@@ -36,12 +36,16 @@ slots:
     mappings:
     - type: from_entity
       entity: client
+  licence:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: licence
 actions:
-- utter_greet
 - action_query_knowledge_base
+- utter_welcome_and_warning
 responses:
-  utter_greet:
-  - text: Hello! How can I help you?
   utter_goodbye:
   - text: Bye
   - text: Goodbye. See you soon.
@@ -50,6 +54,8 @@ responses:
   - text: Can you please rephrase? I did not got that.
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_welcome_and_warning:
+  - text: Hello! I am a bot. Your conversation will be short term recorded on a server. It will not be used for training unless you explicitly allow it. How can I help you and can we use the conversation for training me?
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -710,5 +710,897 @@
             "description": "- Hosted Homeservers\n\nFederated Computer provides Element and Matrix hosting as part of a team collaboration suite (including Nextcloud, Jitsi, Listmonk, Vaultwarden, Baserow, Gitea, Caddy, Castopod, Wireguard, and single-sign-on LDAP).\n",
             "id": 4
         }
+    ],
+    "sdk": [
+        {
+            "name": "Matrix.org AS Node SDK",
+            "maintainer": "Matrix.org team",
+            "maturity": "Stable",
+            "language": "JavaScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/matrix-org/matrix-appservice-node",
+            "purpose": [
+                "bot",
+                "bridge"
+            ],
+            "featured_in": [
+                "bridge"
+            ],
+            "description": "Matrix Application Service framework in Node.js.\n",
+            "id": 0
+        },
+        {
+            "name": "Matrix.org JS SDK",
+            "maintainer": "Matrix.org team",
+            "maturity": "Stable",
+            "language": "JavaScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/matrix-org/matrix-js-sdk",
+            "purpose": [
+                "client",
+                "bot",
+                "bridge"
+            ],
+            "featured_in": [],
+            "description": "Matrix Client-Server SDK for JavaScript.\n",
+            "id": 1
+        },
+        {
+            "name": "MatrixBot .NET Core SDK",
+            "maintainer": "enimatek-nl",
+            "maturity": "Stable",
+            "language": "C#",
+            "licence": "MIT",
+            "repository": "https://github.com/enimatek-nl/matrixbot-dotnet-sdk",
+            "purpose": [
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "Build .NET chat bots compatible with the Matrix Protocol. It has support for a limited subset of the APIs.\n",
+            "id": 2
+        },
+        {
+            "name": "Simple-Matrix-Bot-Lib",
+            "maintainer": "KrazyKirby99999",
+            "maturity": "Stable",
+            "language": "Python",
+            "licence": "MIT",
+            "repository": "https://codeberg.org/imbev/simplematrixbotlib",
+            "purpose": [
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "An easy to use bot library for the Matrix ecosystem written in Python.\n",
+            "id": 3
+        },
+        {
+            "name": "Ruma",
+            "maintainer": "Ruma team",
+            "maturity": "Stable",
+            "language": "Rust",
+            "licence": "MIT",
+            "repository": "https://github.com/ruma",
+            "purpose": [
+                "client",
+                "bot",
+                "bridge"
+            ],
+            "featured_in": [],
+            "description": "A set of Rust crates for interacting with the Matrix chat network.\n",
+            "id": 4
+        },
+        {
+            "name": "gomatrix",
+            "maintainer": "Matrix.org",
+            "maturity": "Stable",
+            "language": "Go",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/matrix-org/gomatrix",
+            "purpose": [
+                "client"
+            ],
+            "featured_in": [],
+            "description": "A Golang Matrix client.\n",
+            "id": 5
+        },
+        {
+            "name": "matrix-appservice-bridge",
+            "maintainer": "Matrix.org",
+            "maturity": "Stable",
+            "language": "TypeScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/matrix-org/matrix-appservice-bridge",
+            "purpose": [
+                "bridge"
+            ],
+            "featured_in": [
+                "bridge"
+            ],
+            "description": "Bridging infrastructure for Application Services.\n",
+            "id": 6
+        },
+        {
+            "name": "matrix-nio",
+            "maintainer": "poljar",
+            "maturity": "Stable",
+            "language": "Python",
+            "licence": "ISC",
+            "repository": "https://github.com/poljar/matrix-nio",
+            "purpose": [
+                "client",
+                "bot"
+            ],
+            "featured_in": [
+                "client",
+                "bot"
+            ],
+            "description": "A Python Matrix client library, designed according to sans I/O principles.\n",
+            "id": 7
+        },
+        {
+            "name": "mautrix-go",
+            "maintainer": "Tulir",
+            "maturity": "Stable",
+            "language": "Go",
+            "licence": "MPL-2.0",
+            "repository": "https://github.com/mautrix/go",
+            "purpose": [
+                "client",
+                "bot",
+                "bridge"
+            ],
+            "featured_in": [
+                "client",
+                "bot",
+                "bridge"
+            ],
+            "description": "A Golang Matrix framework.\n",
+            "id": 8
+        },
+        {
+            "name": "mautrix-python",
+            "maintainer": "Tulir",
+            "maturity": "Stable",
+            "language": "Python",
+            "licence": "MPL-2.0",
+            "repository": "https://github.com/mautrix/python",
+            "purpose": [
+                "client",
+                "bot",
+                "bridge"
+            ],
+            "featured_in": [
+                "client",
+                "bot",
+                "bridge"
+            ],
+            "description": "A Python 3 asyncio Matrix framework.\n",
+            "id": 9
+        },
+        {
+            "name": "Drupal matrix_api module",
+            "maintainer": "freelock",
+            "maturity": "Obsolete",
+            "language": "PHP",
+            "licence": "None",
+            "repository": "https://cgit.drupalcode.org/matrix_api",
+            "purpose": [],
+            "featured_in": [],
+            "id": 10
+        },
+        {
+            "name": "Glitch in the Matrix",
+            "maintainer": "eta",
+            "maturity": "Obsolete",
+            "language": "Rust",
+            "licence": "CC0-1.0",
+            "repository": "https://github.com/eeeeeta/glitch-in-the-matrix",
+            "purpose": [],
+            "featured_in": [],
+            "id": 11
+        },
+        {
+            "name": "Gyr",
+            "maintainer": "Adam Beckmeyer",
+            "maturity": "Obsolete",
+            "language": "Python",
+            "licence": "GPL-3.0-only",
+            "repository": "https://github.com/non-Jedi/gyr",
+            "purpose": [],
+            "featured_in": [],
+            "id": 12
+        },
+        {
+            "name": "Matrix .NET SDK",
+            "maintainer": "Half-Shot",
+            "maturity": "Obsolete",
+            "language": "C#",
+            "licence": "MIT",
+            "repository": "https://github.com/Half-Shot/matrix-dotnet-sdk",
+            "purpose": [],
+            "featured_in": [],
+            "id": 13
+        },
+        {
+            "name": "Matrix C# SDK",
+            "maintainer": "Baking Bad",
+            "maturity": "Beta",
+            "language": "C#",
+            "licence": "MIT",
+            "repository": "https://github.com/baking-bad/matrix-dotnet-sdk",
+            "purpose": [
+                "client",
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "Build .NET apps compatible with the Matrix Protocol.\n",
+            "id": 14
+        },
+        {
+            "name": "Matrix Client SDK for GLib",
+            "maintainer": "Gergely Polonkai",
+            "maturity": "Obsolete",
+            "language": "C",
+            "licence": "LGPL-3.0-or-later",
+            "repository": "https://github.com/gergelypolonkai/matrix-glib-sdk",
+            "purpose": [],
+            "featured_in": [],
+            "id": 15
+        },
+        {
+            "name": "Matrix Dart SDK",
+            "maintainer": "Famedly GmBH",
+            "maturity": "Stable",
+            "language": "Dart",
+            "licence": "AGPL-3.0",
+            "repository": "https://github.com/famedly/matrix-dart-sdk",
+            "purpose": [
+                "client"
+            ],
+            "featured_in": [],
+            "description": "Matrix SDK written in dart.\n",
+            "id": 16
+        },
+        {
+            "name": "Matrix Java SDK",
+            "maintainer": "Kamax.io",
+            "maturity": "Obsolete",
+            "language": "Java",
+            "licence": "AGPL-3.0-or-later",
+            "repository": "https://github.com/kamax-io/matrix-java-sdk",
+            "purpose": [],
+            "featured_in": [],
+            "id": 17
+        },
+        {
+            "name": "Matrix on Haxe",
+            "maintainer": "endes",
+            "maturity": "Obsolete",
+            "language": "Haxe",
+            "licence": "AGPL-3.0-only",
+            "repository": "https://notabug.org/Tamaimo/haxe-matrix-im",
+            "purpose": [],
+            "featured_in": [],
+            "id": 18
+        },
+        {
+            "name": "Matrix-ClientServer-API-java",
+            "maintainer": "Jojii",
+            "maturity": "Beta",
+            "language": "Java",
+            "licence": "Unknown",
+            "repository": "https://github.com/JojiiOfficial/Matrix-ClientServer-API-java",
+            "purpose": [
+                "client",
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "A small and simple java API for the Matrix ClientServer Protocol.\n",
+            "id": 19
+        },
+        {
+            "name": "Matrix.org Android SDK",
+            "maintainer": "Matrix.org team",
+            "maturity": "Obsolete",
+            "language": "Java",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/matrix-org/matrix-android-sdk",
+            "purpose": [],
+            "featured_in": [],
+            "id": 20
+        },
+        {
+            "name": "Matrix.org AngularJS SDK",
+            "maintainer": "Matrix.org team",
+            "maturity": "Obsolete",
+            "language": "JavaScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/matrix-org/matrix-angular-sdk",
+            "purpose": [],
+            "featured_in": [],
+            "id": 21
+        },
+        {
+            "name": "Matrix.org Python SDK",
+            "maintainer": "Matrix.org team",
+            "maturity": "Obsolete",
+            "language": "Python",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/matrix-org/matrix-python-sdk",
+            "purpose": [],
+            "featured_in": [],
+            "id": 22
+        },
+        {
+            "name": "Matrix.org iOS SDK",
+            "maintainer": "Matrix.org team",
+            "maturity": "Beta",
+            "language": "Objective-C",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/matrix-org/matrix-ios-sdk",
+            "purpose": [
+                "client"
+            ],
+            "featured_in": [
+                "client"
+            ],
+            "description": "The Matrix SDK for iOS.\n",
+            "id": 23
+        },
+        {
+            "name": "Matrix::Client",
+            "maintainer": "matiaslina",
+            "maturity": "Obsolete",
+            "language": "Raku",
+            "licence": "Artistic2",
+            "repository": "https://github.com/matiaslina/perl6-matrix-client",
+            "purpose": [],
+            "featured_in": [],
+            "id": 24
+        },
+        {
+            "name": "MatrixAPI",
+            "maintainer": "VRocker",
+            "maturity": "Obsolete",
+            "language": "C#",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/VRocker/MatrixAPI",
+            "purpose": [],
+            "featured_in": [],
+            "id": 25
+        },
+        {
+            "name": "Net::Async::Matrix (Perl)",
+            "maintainer": "LeoNerd",
+            "maturity": "Obsolete",
+            "language": "Perl",
+            "licence": "GPL-1.0-or-later",
+            "repository": "https://metacpan.org/release/Net-Async-Matrix",
+            "purpose": [],
+            "featured_in": [],
+            "id": 26
+        },
+        {
+            "name": "Operator",
+            "maintainer": "uhoreg",
+            "maturity": "Obsolete",
+            "language": "C++",
+            "licence": "Apache-2.0",
+            "repository": "https://vcs.uhoreg.ca/git/cgit/operator/",
+            "purpose": [],
+            "featured_in": [],
+            "id": 27
+        },
+        {
+            "name": "Quotient",
+            "maintainer": "The Quotient team",
+            "maturity": "Beta",
+            "language": "C++",
+            "licence": "LGPL-2.1-only",
+            "repository": "https://github.com/quotient-im",
+            "purpose": [
+                "client",
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "A Qt5 library to write cross-platform clients for Matrix\n",
+            "id": 28
+        },
+        {
+            "name": "Racket Matrix SDK",
+            "maintainer": "Aidan Gauland",
+            "maturity": "Obsolete",
+            "language": "Racket",
+            "licence": "LGPL-3.0-or-later",
+            "repository": "https://gitlab.com/aidalgol/racket-matrix-sdk/",
+            "purpose": [],
+            "featured_in": [],
+            "id": 29
+        },
+        {
+            "name": "Ruby Matrix SDK",
+            "maintainer": "Ananace",
+            "maturity": "Beta",
+            "language": "Ruby",
+            "licence": "MIT",
+            "repository": "https://github.com/ananace/ruby-matrix-sdk",
+            "purpose": [
+                "client",
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "Ruby SDK for the Matrix communication protocol.\n",
+            "id": 30
+        },
+        {
+            "name": "Swift MatrixSDK",
+            "maintainer": "gperdomor",
+            "maturity": "Obsolete",
+            "language": "Swift",
+            "licence": "MIT",
+            "repository": "https://github.com/gperdomor/matrix-sdk",
+            "purpose": [],
+            "featured_in": [],
+            "id": 31
+        },
+        {
+            "name": "Trixnity",
+            "maintainer": "Trixnity Team",
+            "maturity": "Stable",
+            "language": "Kotlin",
+            "licence": "Apache-2.0",
+            "repository": "https://gitlab.com/trixnity/trixnity",
+            "purpose": [
+                "client",
+                "bot",
+                "bridge"
+            ],
+            "featured_in": [],
+            "description": "Multiplatform Kotlin SDK for developing Clients, Bots, Appservices and Servers.\n",
+            "id": 32
+        },
+        {
+            "name": "Trixnity Messenger",
+            "maintainer": "connect2x GmbH",
+            "maturity": "Beta",
+            "language": "Kotlin",
+            "licence": "AGPL-3.0",
+            "repository": "https://gitlab.com/connect2x/trixnity-messenger",
+            "purpose": [
+                "client"
+            ],
+            "featured_in": [],
+            "description": "Multiplatform Kotlin SDK for developing messengers on top of Trixnity\n",
+            "id": 33
+        },
+        {
+            "name": "botkit-matrix",
+            "maintainer": "frankgerhardt",
+            "maturity": "Obsolete",
+            "language": "JavaScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/frankgerhardt/botkit-matrix",
+            "purpose": [],
+            "featured_in": [],
+            "id": 34
+        },
+        {
+            "name": "dial-phone",
+            "maintainer": "mtorials",
+            "maturity": "Alpha",
+            "language": "Kotlin",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/mtorials/dial-phone",
+            "purpose": [
+                "client",
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "A Matrix client-server SDK written in Kotlin.\n",
+            "id": 35
+        },
+        {
+            "name": "goMatrix",
+            "maintainer": "geir54",
+            "maturity": "Obsolete",
+            "language": "Go",
+            "licence": "MPL-2.0",
+            "repository": "https://github.com/geir54/goMatrix",
+            "purpose": [],
+            "featured_in": [],
+            "id": 36
+        },
+        {
+            "name": "godot-matrix",
+            "maintainer": "vurpo",
+            "maturity": "Obsolete",
+            "language": "C++",
+            "licence": "MIT",
+            "repository": "https://gitlab.com/vurpo/godot-matrix",
+            "purpose": [],
+            "featured_in": [],
+            "id": 37
+        },
+        {
+            "name": "jmsdk",
+            "maintainer": "ma1uta",
+            "maturity": "Obsolete",
+            "language": "Java",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/ma1uta/jmsdk",
+            "purpose": [],
+            "featured_in": [],
+            "id": 38
+        },
+        {
+            "name": "libkazv",
+            "maintainer": "The Kazv Project",
+            "maturity": "Alpha",
+            "language": "C++",
+            "licence": "AGPL-3.0-or-later",
+            "repository": "https://lily.kazv.moe/kazv/libkazv",
+            "purpose": [
+                "client",
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "A matrix client sdk built upon lager and the value-oriented design it enables.\n",
+            "id": 39
+        },
+        {
+            "name": "matrix-bot-sdk",
+            "maintainer": "Travis Ralston",
+            "maturity": "Beta",
+            "language": "TypeScript",
+            "licence": "MIT",
+            "repository": "https://github.com/turt2live/matrix-bot-sdk",
+            "purpose": [
+                "bot",
+                "bridge"
+            ],
+            "featured_in": [
+                "bot",
+                "bridge"
+            ],
+            "description": "TypeScript/JavaScript SDK for Matrix bots.\n",
+            "id": 40
+        },
+        {
+            "name": "matrix-erlang-sdk",
+            "maintainer": "Andreas Hallberg",
+            "maturity": "Obsolete",
+            "language": "Erlang",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/anhallbe/matrix-erlang-sdk",
+            "purpose": [],
+            "featured_in": [],
+            "id": 41
+        },
+        {
+            "name": "matrix-kt",
+            "maintainer": "Dominic Fischer",
+            "maturity": "Beta",
+            "language": "Kotlin",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/Dominaezzz/matrix-kt",
+            "purpose": [
+                "client",
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "Kotlin libraries for Matrix.\n",
+            "id": 42
+        },
+        {
+            "name": "matrix-redux-wrap",
+            "maintainer": "Luke Barnard",
+            "maturity": "Obsolete",
+            "language": "JavaScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/lukebarnard1/matrix-redux-wrap",
+            "purpose": [],
+            "featured_in": [],
+            "id": 43
+        },
+        {
+            "name": "matrix-rust-sdk",
+            "maintainer": "poljar",
+            "maturity": "Beta",
+            "language": "Rust",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/matrix-org/matrix-rust-sdk",
+            "purpose": [
+                "client",
+                "bot",
+                "bridge"
+            ],
+            "featured_in": [
+                "client",
+                "bot",
+                "bridge"
+            ],
+            "description": "An implementation of a Matrix client-server library in Rust.\n",
+            "id": 44
+        },
+        {
+            "name": "mautrix-appservice-go",
+            "maintainer": "Tulir",
+            "maturity": "Obsolete",
+            "language": "Go",
+            "licence": "MPL-2.0",
+            "repository": "https://github.com/tulir/mautrix-appservice-go",
+            "purpose": [],
+            "featured_in": [],
+            "id": 45
+        },
+        {
+            "name": "mtxclient",
+            "maintainer": "mujx",
+            "maturity": "Obsolete",
+            "language": "C++",
+            "licence": "MIT",
+            "repository": "https://github.com/mujx/mtxclient",
+            "purpose": [],
+            "featured_in": [],
+            "id": 46
+        },
+        {
+            "name": "newlisp-matrix-client",
+            "maintainer": "Ingo Hohmann",
+            "maturity": "Obsolete",
+            "language": "Lisp",
+            "licence": "MIT",
+            "repository": "https://github.com/IngoHohmann/newlisp-matrix-client",
+            "purpose": [],
+            "featured_in": [],
+            "id": 47
+        },
+        {
+            "name": "smallbot-matrix",
+            "maintainer": "cybertim",
+            "maturity": "Obsolete",
+            "language": "TypeScript",
+            "licence": "MIT",
+            "repository": "https://github.com/cybertim/SmallBotMatrix",
+            "purpose": [],
+            "featured_in": [],
+            "id": 48
+        },
+        {
+            "name": "µtrix",
+            "maintainer": "Dominik George; Project Hack'n'Fun @ Teckids e.V.",
+            "maturity": "Beta",
+            "language": "Python",
+            "licence": "Apache-2.0",
+            "repository": "https://edugit.org/Teckids/hacknfun/libs/mytrix",
+            "purpose": [
+                "client",
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "Matrix client library for MicroPython.\n",
+            "id": 49
+        },
+        {
+            "name": "matrix-communication-client",
+            "maintainer": "Réda Housni Alaoui",
+            "maturity": "Stable",
+            "language": "Java",
+            "licence": "MIT",
+            "repository": "https://github.com/Cosium/matrix-communication-client",
+            "purpose": [
+                "client",
+                "bot"
+            ],
+            "featured_in": [],
+            "description": "A java client for the Matrix protocol.\n",
+            "id": 50
+        }
+    ],
+    "integration": [
+        {
+            "name": "emm",
+            "description": "emm stands for Export Matrix Messages\nA CLI tool that joins the room and exports last N messages to the file(-s) you specified.\n",
+            "maintainer": "etke.cc",
+            "language": "Go",
+            "licence": "GPL-3.0-or-later",
+            "repository": "https://gitlab.com/etke.cc/emm",
+            "room": "#emm:etke.cc",
+            "id": 0
+        },
+        {
+            "name": "Hemppa",
+            "description": "Generic modular Matrix bot, a super easy platform to write Matrix bot\nfunctionality in Python.\n",
+            "maintainer": "Cos",
+            "language": "Python",
+            "licence": "GPL-3.0-only",
+            "repository": "https://github.com/vranki/hemppa",
+            "room": "#hemppa:hacklab.fi",
+            "id": 1
+        },
+        {
+            "name": "Honoroit",
+            "description": "A Matrix helpdesk bot\n",
+            "maintainer": "etke.cc",
+            "language": "Go",
+            "licence": "AGPL-3.0-only",
+            "repository": "https://gitlab.com/etke.cc/honoroit",
+            "room": "#honoroit:etke.cc",
+            "id": 2
+        },
+        {
+            "name": "matrix-email-bot",
+            "description": "Posts links to emails in Matrix rooms. Ideal for newsletter distribution.\n",
+            "maintainer": "TravisR, t2bot.io",
+            "language": "TypeScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/t2bot/matrix-email-bot",
+            "room": "#email:t2bot.io",
+            "id": 3
+        },
+        {
+            "name": "matrix-eno-bot",
+            "description": "Personal assistant and Admin tool",
+            "maintainer": "8go",
+            "repository": "https://github.com/8go/matrix-eno-bot",
+            "language": "Python, Bash",
+            "licence": "WTFPL",
+            "id": 4
+        },
+        {
+            "name": "matrix-feeder",
+            "description": "Matrix feeder is a matrix bot that monitors defined channels for media and posts\nthem to another channel.\n",
+            "maintainer": "dragonchaser",
+            "repository": "https://github.com/dragonchaser/matrix-feeder",
+            "language": "JavaScript",
+            "licence": "MIT",
+            "id": 5
+        },
+        {
+            "name": "Matrix Registration Bot",
+            "description": "A bot aiming to create and manage registration tokens for a matrix server. It\nwants to help invitation based servers to maintain usability.\n",
+            "maintainer": "moanos",
+            "language": "Python",
+            "licence": "AGPL-3.0-or-later",
+            "repository": "https://github.com/moan0s/matrix-registration-bot/",
+            "room": "#matrix-registration-bot:hyteck.de",
+            "id": 6
+        },
+        {
+            "name": "Matrix Rooms Search API",
+            "description": "A fully-featured, standalone, matrix rooms search service.\n\nDemo instance: https://matrixrooms.info\n",
+            "maintainer": "etke.cc",
+            "language": "Go",
+            "licence": "GPL-3.0-only",
+            "repository": "https://gitlab.com/etke.cc/mrs/api",
+            "room": "#mrs:etke.cc",
+            "id": 7
+        },
+        {
+            "name": "matrix-rss-bridge",
+            "description": "matrix-rss-bridge is a bridge for reading RSS feeds in Matrix rooms.",
+            "author": "Isaac Beverly",
+            "language": "Python",
+            "repository": "https://gitlab.com/imbev/matrix-rss-bridge",
+            "licence": "GPL-3.0-only",
+            "id": 8
+        },
+        {
+            "name": "matrix-trello-bot",
+            "description": "Interact with Trello in matrix",
+            "maintainer": "Travis Ralston",
+            "language": "TypeScript",
+            "licence": "GPL-3.0-only",
+            "repository": "https://github.com/turt2live/matrix-trello-bot",
+            "room": "#trellobot:t2bot.io",
+            "id": 9
+        },
+        {
+            "name": "maubot",
+            "description": "A plugin-based Matrix bot system written in Python.",
+            "author": "Tulir",
+            "language": "Python",
+            "licence": "AGPL-3.0-or-later",
+            "repository": "https://github.com/maubot/maubot",
+            "room": "#maubot:maunium.net",
+            "id": 10
+        },
+        {
+            "name": "opsdroid",
+            "description": "A connector for opsdroid to receive and respond to messages",
+            "maintainer": "opsdroid",
+            "language": "Python",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/opsdroid/opsdroid",
+            "id": 11
+        },
+        {
+            "name": "rustix",
+            "description": "A graph-based Matrix bot in Rust",
+            "author": "James",
+            "language": "Rust",
+            "licence": "MIT",
+            "repository": "https://gitlab.com/jpypi/rustix",
+            "id": 12
+        },
+        {
+            "name": "matrix-hookshot",
+            "description": "A bridge between Matrix and multiple project management services, such as GitHub, GitLab and JIRA.",
+            "maintainer": "The Matrix.org Foundation",
+            "language": "TypeScript, Rust",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/matrix-org/matrix-hookshot",
+            "room": "#hookshot:half-shot.uk",
+            "id": 13
+        },
+        {
+            "name": "NeoBoard",
+            "description": "A collaborative whiteboard widget for Matrix.",
+            "maintainer": "Nordeck",
+            "language": "TypeScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/nordeck/matrix-neoboard",
+            "room": "#nordeck:matrix.org",
+            "id": 14
+        },
+        {
+            "name": "Matrix Poll",
+            "description": "A widget to conduct advanced polls in Matrix rooms.",
+            "maintainer": "Nordeck",
+            "language": "TypeScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/nordeck/matrix-poll",
+            "room": "#nordeck:matrix.org",
+            "id": 15
+        },
+        {
+            "name": "Matrix Meetings",
+            "description": "A widget and bot to organize meetings and video conferences in Matrix chat rooms.",
+            "maintainer": "Nordeck",
+            "language": "TypeScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/nordeck/matrix-meetings",
+            "room": "#nordeck:matrix.org",
+            "id": 16
+        },
+        {
+            "name": "Matrix BarCamp",
+            "description": "A widget to organize virtual Barcamps in Matrix chat rooms.",
+            "maintainer": "Nordeck",
+            "language": "TypeScript",
+            "licence": "Apache-2.0",
+            "repository": "https://github.com/nordeck/matrix-barcamp",
+            "room": "#nordeck:matrix.org",
+            "id": 17
+        },
+        {
+            "name": "Matrix Communication Plugin for Jenkins",
+            "description": "A plugin allowing Jenkins to communicate with a Matrix server",
+            "maintainer": "Réda Housni Alaoui",
+            "language": "Java",
+            "licence": "MIT",
+            "repository": "https://github.com/jenkinsci/matrix-communication-plugin",
+            "id": 18
+        },
+        {
+            "name": "Time-to-Matrix",
+            "description": "A time-like command that will send end of an arbitrary command output\nand some other info (like exit status) to matrix room.\n",
+            "maintainer": "etke.cc",
+            "language": "Go",
+            "licence": "MIT",
+            "repository": "https://gitlab.com/etke.cc/ttm",
+            "room": "#ttm:etke.cc",
+            "id": 19
+        },
+        {
+            "name": "radicale-auth-matrix",
+            "description": "Matrix authentication plugin for Radicale\n",
+            "maintainer": "etke.cc",
+            "language": "Python",
+            "licence": "AGPL-3.0-only",
+            "repository": "https://gitlab.com/etke.cc/radicale-auth-matrix",
+            "room": "#source:etke.cc",
+            "id": 20
+        }
     ]
 }

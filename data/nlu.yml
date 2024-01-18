@@ -24,16 +24,31 @@ nlu:
 - intent: query_knowledge_base
   examples: |
     - What [matrix clients]{"entity": "object_type", "value": "client"} can you recommend?
-    - Which [features]{"entity": "attribute", "value": "features"} does [element-x]{"entity": "client"} have?
+    - Which [features]{"entity": "attribute", "value": "features"} does [element-x](client) have?
     - Which [clients]{"entity": "object_type", "value": "client"} can you recommend?
+    - Which matrix tools can you recommend with an [Apache-2.0](licence) licence?
+    - Which tools are using the [Apache-2.0](licence) licence?
+    - Which tools are using the [MIT](licence) Licence?
 - synonym: client
   examples: |
     - matrix clients
+    - clients
     - matrix client
     - client
-    - clients
+- synonym: licence
+  examples: |
+    - licence
+    - license
+    - licenses
+    - licences
 - lookup: client
   examples: |
     - element
     - nheko
     - Fluffychat
+- lookup: licence
+  examples: |
+    - GPL
+    - Apache-2.0
+    - AGPL
+    - MIT

@@ -1,9 +1,9 @@
 version: "3.1"
 rules:
-  - rule: greet
-    steps:
-      - intent: greet
-      - action: utter_greet
+#  - rule: greet
+#    steps:
+#      - intent: greet
+#      - action: utter_greet
   - rule: goodbye
     steps:
       - intent: goodbye
@@ -16,3 +16,8 @@ rules:
     steps:
       - intent: bot_challenge
       - action: utter_iamabot
+  - rule: welcome user
+    conversation_start: true
+    steps:
+      - intent: greet
+      - action: utter_welcome_and_warning

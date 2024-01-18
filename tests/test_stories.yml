@@ -4,7 +4,7 @@ stories:
       - user: |
           hello
         intent: greet
-      - action: utter_greet
+      - action: utter_welcome_and_warning
       - user: |
           Which [matrix client]{"entity": "object_type", "value": "client"} can you recommend?
         intent: query_knowledge_base
