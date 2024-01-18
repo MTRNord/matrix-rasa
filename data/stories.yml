@@ -1,0 +1,35 @@
+version: "3.1"
+stories:
+  - story: are you a bot?
+    steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+    - intent: greet
+    - action: utter_greet
+  - story: interactive_story_1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: query_knowledge_base
+        entities:
+        - object_type: client
+      - slot_was_set:
+        - object_type: client
+      - action: action_query_knowledge_base
+      - slot_was_set:
+        - object_type: null
+      - slot_was_set:
+        - mention: null
+      - slot_was_set:
+        - attribute: null
+      - slot_was_set:
+        - knowledge_base_last_object: null
+      - slot_was_set:
+        - knowledge_base_last_object_type: client
+      - slot_was_set:
+        - knowledge_base_listed_objects:
+          - 4
+          - 17
+          - 7
+          - 1
+          - 14

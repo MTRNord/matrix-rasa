@@ -1,0 +1,55 @@
+version: '3.1'
+intents:
+- bot_challenge
+- goodbye
+- greet
+- query_knowledge_base
+entities:
+- attribute
+- object_type
+- clients
+- mention
+- client
+
+slots:
+  object_type:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: object_type
+  mention:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: mention
+  attribute:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: attribute
+  client:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: client
+actions:
+- utter_greet
+- action_query_knowledge_base
+responses:
+  utter_greet:
+  - text: Hello! How can I help you?
+  utter_goodbye:
+  - text: Bye
+  - text: Goodbye. See you soon.
+  utter_ask_rephrase:
+  - text: Sorry, I'm not sure I understand. Can you rephrase?
+  - text: Can you please rephrase? I did not got that.
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

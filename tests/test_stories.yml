@@ -1,0 +1,21 @@
+stories:
+  - story: A basic story test
+    steps:
+      - user: |
+          hello
+        intent: greet
+      - action: utter_greet
+      - user: |
+          Which [matrix client]{"entity": "object_type", "value": "client"} can you recommend?
+        intent: query_knowledge_base
+      - slot_was_set:
+        - object_type: client
+      - action: action_query_knowledge_base
+      - user: |
+          Which [features](attribute) does [element-x](client) have?
+        intent: query_knowledge_base
+      - slot_was_set:
+        - attribute: features
+      - slot_was_set:
+        - client: element-x
+      - action: action_query_knowledge_base

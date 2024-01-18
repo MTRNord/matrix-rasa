@@ -1,0 +1,714 @@
+{
+    "client": [
+        {
+            "thumbnail": "neochat.svg",
+            "maintainer": "Carl Schwan, Tobias Fella",
+            "licence": "GPL-3.0-only",
+            "language": "C++",
+            "last_release": "2023-11-09",
+            "maturity": "Beta",
+            "repo": "https://invent.kde.org/network/neochat",
+            "website": "https://apps.kde.org/neochat",
+            "matrix_room": "#neochat:kde.org",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": true,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "sso": true,
+                "multi_account": true,
+                "multi_language": true
+            },
+            "packages": {
+                "windows_installer": "https://www.microsoft.com/store/apps/9PNXWVNRC29H",
+                "macos_installer": "https://binary-factory.kde.org/search/?q=neochat",
+                "flathub": {
+                    "app_id": "org.kde.neochat"
+                }
+            },
+            "id": 0,
+            "name": "neochat",
+            "description": "A Matrix client for desktop and mobile"
+        },
+        {
+            "thumbnail": "matrix-commander.svg",
+            "maintainer": "8go",
+            "licence": "GPL-3.0-or-later",
+            "language": "Python",
+            "last_release": "2023-10-12",
+            "maturity": "Stable",
+            "repo": "https://github.com/8go/matrix-commander",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "sso": true,
+                "multi_account": false,
+                "multi_language": false
+            },
+            "packages": {
+                "other_linux_link": "https://github.com/8go/matrix-commander#dependencies-and-installation"
+            },
+            "id": 1,
+            "name": "matrix-commander",
+            "description": "Simple but convenient CLI-based Matrix client app for sending and receiving."
+        },
+        {
+            "thumbnail": "thunderbird.svg",
+            "maintainer": "Mozilla",
+            "licence": "MPL-2.0",
+            "language": "Javascript",
+            "last_release": "2023-04-11",
+            "maturity": "Beta",
+            "repo": "https://hg.mozilla.org/comm-central",
+            "website": "https://www.thunderbird.net",
+            "matrix_room": "#thunderbird:mozilla.org",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "sso": true,
+                "multi_account": true,
+                "multi_language": true
+            },
+            "packages": {
+                "windows_installer": "https://www.thunderbird.net",
+                "macos_installer": "https://www.thunderbird.net",
+                "flathub": {
+                    "app_id": "org.mozilla.Thunderbird"
+                }
+            },
+            "id": 2,
+            "name": "thunderbird",
+            "description": "A free open-repo email, calendar & chat app"
+        },
+        {
+            "thumbnail": "hydrogen.svg",
+            "maintainer": "Element",
+            "licence": "Apache-2.0",
+            "language": "Javascript",
+            "last_release": "2023-02-14",
+            "maturity": "Beta",
+            "repo": "https://github.com/vector-im/hydrogen-web",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "threads": false,
+                "sso": true,
+                "multi_account": true,
+                "multi_language": true
+            },
+            "packages": {
+                "webapp": "https://hydrogen.element.io"
+            },
+            "id": 3,
+            "name": "hydrogen",
+            "description": "Lightweight matrix client with legacy and mobile browser support."
+        },
+        {
+            "thumbnail": "watch-the-matrix.svg",
+            "maintainer": "pixlwave",
+            "licence": "MPL-2.0",
+            "language": "Swift",
+            "last_release": "2023-04-16",
+            "maturity": "Alpha",
+            "repo": "https://github.com/pixlwave/Watch-The-Matrix",
+            "matrix_room": "#watchthe:matrix.org",
+            "featured": false,
+            "features": {
+                "e2ee": false,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "sso": false,
+                "multi_account": false,
+                "multi_language": true
+            },
+            "packages": {
+                "other_install_links": "https://github.com/pixlwave/Watch-The-Matrix/tags"
+            },
+            "id": 4,
+            "name": "watch-the-matrix",
+            "description": "A Matrix client for watchOS written in Swift"
+        },
+        {
+            "thumbnail": "element-x.svg",
+            "maintainer": "Element",
+            "maturity": "Beta",
+            "repo": "https://github.com/element-hq",
+            "matrix_room": "#element-x-ios:matrix.org",
+            "licence": "Apache-2.0",
+            "last_release": "2023-09-21",
+            "featured": true,
+            "features": {
+                "e2ee": true,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": true,
+                "threads": false,
+                "sso": false,
+                "multi_account": false,
+                "multi_language": true
+            },
+            "packages": {
+                "google_play_store": {
+                    "app_id": "io.element.android.x"
+                },
+                "apple_app_store": {
+                    "app_id": "id1631335820",
+                    "org": "vector"
+                }
+            },
+            "id": 5,
+            "name": "element-x",
+            "description": "Element X is pioneering the Matrix 2.0 implementation, notably supporting fast sync with sliding sync."
+        },
+        {
+            "maintainer": "Stefan Tatschner",
+            "licence": "MIT",
+            "language": "Rust",
+            "last_release": "",
+            "maturity": "Alpha",
+            "repo": "https://github.com/rumpelsepp/mnotify/",
+            "matrix_room": "#mnotify:hackbrettl.de",
+            "featured": false,
+            "features": {
+                "e2ee": false,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "sso": false,
+                "multi_account": false,
+                "multi_language": false
+            },
+            "packages": {
+                "other_linux_link": "https://github.com/rumpelsepp/mnotify/#build"
+            },
+            "id": 6,
+            "name": "mnotify",
+            "description": "A matrix cli client"
+        },
+        {
+            "thumbnail": "commet.svg",
+            "maintainer": "Airyz",
+            "licence": "AGPL-3.0",
+            "language": "Dart",
+            "last_release": "2023-11-17",
+            "maturity": "Alpha",
+            "repo": "https://github.com/commetchat/commet",
+            "website": "https://commet.chat",
+            "matrix_room": "#commet:matrix.org",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": true,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "threads": false,
+                "sso": false,
+                "multi_account": true,
+                "multi_language": false
+            },
+            "packages": {
+                "windows_installer": "https://github.com/commetchat/commet/releases",
+                "other_linux_link": "https://github.com/commetchat/commet/releases",
+                "webapp": "https://app.commet.chat/"
+            },
+            "id": 7,
+            "name": "commet",
+            "description": "Focused on providing a feature rich experience while maintaining a simple interface"
+        },
+        {
+            "maintainer": "diamondburned",
+            "licence": "AGPL-3.0-or-later",
+            "language": "Go",
+            "last_release": "2022-08-01",
+            "maturity": "Alpha",
+            "repo": "https://github.com/diamondburned/gotktrix",
+            "featured": false,
+            "features": {
+                "e2ee": false,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "threads": false,
+                "sso": true,
+                "multi_account": true,
+                "multi_language": false
+            },
+            "packages": {
+                "other_linux_link": "https://github.com/diamondburned/gotktrix/releases"
+            },
+            "id": 8,
+            "name": "gotktrix",
+            "description": "Matrix client in Go and GTK4."
+        },
+        {
+            "thumbnail": "cinny.svg",
+            "maintainer": "Ajay Bura",
+            "licence": "AGPL-3.0",
+            "language": "Javascript",
+            "last_release": "2023-02-20",
+            "maturity": "Stable",
+            "repo": "https://github.com/cinnyapp/cinny",
+            "website": "https://cinny.in",
+            "matrix_room": "#cinny:matrix.org",
+            "featured": true,
+            "features": {
+                "e2ee": true,
+                "spaces": true,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "threads": false,
+                "sso": true,
+                "multi_account": false,
+                "multi_language": false
+            },
+            "packages": {
+                "windows_installer": "https://github.com/cinnyapp/cinny-desktop/releases",
+                "macos_installer": "https://github.com/cinnyapp/cinny-desktop/releases",
+                "flathub": {
+                    "app_id": "in.cinny.Cinny"
+                },
+                "webapp": "https://app.cinny.in/"
+            },
+            "id": 9,
+            "name": "cinny",
+            "description": "A Matrix client focusing primarily on simple, elegant and secure interface."
+        },
+        {
+            "maintainer": "ulyssa",
+            "licence": "Apache-2.0",
+            "language": "Rust",
+            "last_release": "2023-03-24",
+            "maturity": "Beta",
+            "repo": "https://github.com/ulyssa/iamb",
+            "website": "https://iamb.chat/",
+            "matrix_room": "#iamb:0x.badd.cafe",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "threads": false,
+                "sso": false,
+                "multi_account": true,
+                "multi_language": false
+            },
+            "packages": {
+                "other_linux_link": "https://iamb.chat/install.html"
+            },
+            "id": 10,
+            "name": "iamb",
+            "description": "A terminal-based Matrix client with Vim keybindings written in Rust."
+        },
+        {
+            "thumbnail": "fractal.svg",
+            "maintainer": "Alexandre Franke, Kévin Commaille and Julian Sparber",
+            "licence": "GPL-3.0-or-later",
+            "language": "Rust",
+            "last_release": "2023-11-24",
+            "maturity": "Beta",
+            "repo": "https://gitlab.gnome.org/GNOME/fractal",
+            "matrix_room": "#fractal:gnome.org",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "threads": false,
+                "sso": true,
+                "multi_account": true,
+                "multi_language": true
+            },
+            "packages": {
+                "flathub": {
+                    "app_id": "org.gnome.Fractal"
+                }
+            },
+            "id": 11,
+            "name": "fractal",
+            "description": "A Matrix messaging app for GNOME, written in Rust. Its interface is optimized for collaboration in large groups, such as free software projects, and will fit all screens, big or small."
+        },
+        {
+            "thumbnail": "fluffychat.svg",
+            "maintainer": "Christian Pauly",
+            "licence": "AGPL-3.0-only",
+            "language": "Flutter",
+            "last_release": "2021-12-01",
+            "maturity": "Stable",
+            "repo": "https://github.com/krille-chan/fluffychat",
+            "website": "https://fluffychat.im",
+            "matrix_room": "#fluffychat:matrix.org",
+            "featured": true,
+            "features": {
+                "e2ee": true,
+                "spaces": true,
+                "voip_1to1": true,
+                "voip_jitsi": true,
+                "widgets": false,
+                "threads": false,
+                "sso": true,
+                "multi_account": true,
+                "multi_language": true
+            },
+            "packages": {
+                "google_play_store": {
+                    "app_id": "chat.fluffy.fluffychat"
+                },
+                "f_droid": {
+                    "app_id": "chat.fluffy.fluffychat"
+                },
+                "apple_app_store": {
+                    "app_id": "id1551469600",
+                    "org": "fluffychat"
+                },
+                "flathub": {
+                    "app_id": "im.fluffychat.Fluffychat"
+                },
+                "webapp": "https://fluffychat.im/web"
+            },
+            "id": 12,
+            "name": "fluffychat",
+            "description": "Cute instant messaging app for all platforms."
+        },
+        {
+            "thumbnail": "schildichat.svg",
+            "maintainer": "SpiritCroc",
+            "licence": "Apache-2.0",
+            "language": "Javascript",
+            "last_release": "2023-03-28",
+            "maturity": "Stable",
+            "repo": "https://github.com/SchildiChat",
+            "website": "https://schildi.chat/",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": true,
+                "voip_1to1": true,
+                "voip_jitsi": true,
+                "widgets": true,
+                "sso": true,
+                "multi_account": false,
+                "multi_language": true
+            },
+            "packages": {
+                "windows_installer": "https://github.com/SchildiChat/schildichat-desktop/releases",
+                "macos_installer": "https://github.com/SchildiChat/schildichat-desktop/releases",
+                "google_play_store": {
+                    "app_id": "de.spiritcroc.riotx"
+                },
+                "f_droid": {
+                    "app_id": "de.spiritcroc.riotx"
+                },
+                "flathub": {
+                    "app_id": "chat.schildi.desktop"
+                },
+                "webapp": "https://app.schildi.chat/"
+            },
+            "id": 13,
+            "name": "schildichat",
+            "description": "Based on Element, with a more traditional instant messaging experience."
+        },
+        {
+            "maintainer": "Tulir",
+            "licence": "AGPL-3.0-or-later",
+            "language": "Go",
+            "last_release": "2022-11-19",
+            "maturity": "Beta",
+            "repo": "https://github.com/tulir/gomuks",
+            "matrix_room": "#gomuks:maunium.net",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "threads": false,
+                "sso": true,
+                "multi_account": false,
+                "multi_language": false
+            },
+            "packages": {
+                "other_linux_link": "https://github.com/tulir/gomuks/releases",
+                "macos_installer": "https://github.com/tulir/gomuks/releases"
+            },
+            "id": 14,
+            "name": "gomuks",
+            "description": "A terminal Matrix client written in Go."
+        },
+        {
+            "thumbnail": "syphon.svg",
+            "maintainer": "Syphon Org",
+            "licence": "AGPL-3.0",
+            "language": "Dart",
+            "last_release": "",
+            "maturity": "Alpha",
+            "repo": "https://github.com/syphon-org/syphon",
+            "website": "https://syphon.org/",
+            "matrix_room": "#syphon:matrix.org",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "sso": true,
+                "multi_account": true,
+                "multi_language": true
+            },
+            "packages": {
+                "google_play_store": {
+                    "app_id": "org.tether.tether"
+                },
+                "f_droid": {
+                    "app_id": "org.tether.tether"
+                },
+                "apple_app_store": {
+                    "app_id": "id1496285352",
+                    "org": "syphon"
+                },
+                "flathub": {
+                    "app_id": "org.syphon.Syphon"
+                }
+            },
+            "id": 15,
+            "name": "syphon",
+            "description": "A privacy centric matrix client"
+        },
+        {
+            "thumbnail": "quadrix.svg",
+            "maintainer": "Jean-François Alarie",
+            "licence": "GPL-3.0-or-later",
+            "language": "TypeScript",
+            "last_release": "",
+            "maturity": "Stable",
+            "repo": "https://github.com/alariej/quadrix",
+            "website": "https://quadrix.chat",
+            "matrix_room": "#quadrix:matrix.org",
+            "featured": false,
+            "features": {
+                "e2ee": false,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "sso": false,
+                "multi_account": false,
+                "multi_language": false
+            },
+            "packages": {
+                "apple_app_store": {
+                    "org": "quadrix-chat",
+                    "app_id": "id1576110553"
+                },
+                "google_play_store": {
+                    "app_id": "chat.quadrix.android"
+                },
+                "windows_installer": "https://apps.microsoft.com/store/detail/quadrixchat/9NPZ93X49V00",
+                "macos_installer": "https://apps.apple.com/us/app/quadrix-chat-desktop/id1577585119",
+                "flathub": {
+                    "app_id": "chat.quadrix.Quadrix"
+                },
+                "webapp": "https://quadrix.chat"
+            },
+            "id": 16,
+            "name": "quadrix",
+            "description": "Minimal Matrix client available in all main app stores"
+        },
+        {
+            "thumbnail": "quaternion.svg",
+            "maintainer": "The Quotient Project",
+            "licence": "GPL-3.0-only",
+            "language": "C++",
+            "last_release": "2021-10-07",
+            "maturity": "Beta",
+            "repo": "https://github.com/quotient-im/Quaternion",
+            "matrix_room": "#quotient:matrix.org",
+            "featured": false,
+            "features": {
+                "e2ee": false,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "sso": true,
+                "multi_account": true,
+                "multi_language": false
+            },
+            "packages": {
+                "windows_installer": "https://github.com/quotient-im/Quaternion/releases/latest",
+                "macos_installer": "https://github.com/quotient-im/Quaternion/releases/latest",
+                "flathub": {
+                    "app_id": "com.github.quaternion"
+                }
+            },
+            "id": 17,
+            "name": "quaternion",
+            "description": "A Qt5-based IM client for Matrix."
+        },
+        {
+            "thumbnail": "nheko.svg",
+            "maintainer": "mujx, red_sky, deepbluev7",
+            "licence": "GPL-3.0-or-later",
+            "language": "C++",
+            "last_release": "2023-02-20",
+            "maturity": "Beta",
+            "repo": "https://github.com/Nheko-Reborn/nheko",
+            "website": "https://nheko-reborn.github.io/",
+            "matrix_room": "#nheko-reborn:matrix.org",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": true,
+                "voip_1to1": true,
+                "voip_jitsi": false,
+                "widgets": false,
+                "threads": true,
+                "sso": true,
+                "multi_account": false,
+                "multi_language": true
+            },
+            "packages": {
+                "windows_installer": "https://github.com/Nheko-Reborn/nheko/releases",
+                "macos_installer": "https://github.com/Nheko-Reborn/nheko/releases",
+                "flathub": {
+                    "app_id": "io.github.NhekoReborn.Nheko"
+                }
+            },
+            "id": 18,
+            "name": "nheko",
+            "description": "Desktop client for Matrix using Qt and C++20."
+        },
+        {
+            "thumbnail": "element.svg",
+            "maintainer": "Element",
+            "maturity": "Stable",
+            "repo": "https://github.com/element-hq",
+            "matrix_room": "#element-web:matrix.org",
+            "licence": "Apache-2.0",
+            "last_release": "2022-11-02",
+            "featured": true,
+            "features": {
+                "e2ee": true,
+                "spaces": true,
+                "voip_1to1": true,
+                "voip_jitsi": true,
+                "widgets": true,
+                "threads": true,
+                "sso": true,
+                "multi_account": false,
+                "multi_language": true
+            },
+            "packages": {
+                "windows_installer": "https://element.io/download",
+                "macos_installer": "https://element.io/download",
+                "google_play_store": {
+                    "app_id": "im.vector.app"
+                },
+                "f_droid": {
+                    "app_id": "im.vector.app"
+                },
+                "apple_app_store": {
+                    "app_id": "id1083446067",
+                    "org": "vector"
+                },
+                "flathub": {
+                    "app_id": "im.riot.Riot"
+                },
+                "webapp": "https://app.element.io"
+            },
+            "id": 19,
+            "name": "element",
+            "description": "Element is a glossy client with an emphasis on performance and usability."
+        },
+        {
+            "thumbnail": "kazv.png",
+            "maintainer": "The Kazv Project",
+            "licence": "AGPL-3.0-or-later",
+            "language": "C++",
+            "last_release": "",
+            "maturity": "Alpha",
+            "repo": "https://lily.kazv.moe/kazv/kazv",
+            "matrix_room": "#kazv:tusooa.xyz",
+            "featured": false,
+            "features": {
+                "e2ee": true,
+                "spaces": false,
+                "voip_1to1": false,
+                "voip_jitsi": false,
+                "widgets": false,
+                "sso": false,
+                "multi_account": false,
+                "multi_language": false
+            },
+            "packages": {
+                "other_linux_link": "https://lily-is.land/kazv/kazv#compiled-executables"
+            },
+            "id": 20,
+            "name": "kazv",
+            "description": "A convergent qml/kirigami client based on libkazv."
+        }
+    ],
+    "provider": [
+        {
+            "name": "Element Matrix Services",
+            "website": "https://ems.element.io",
+            "operating_since": "2018",
+            "description": "- Hosted Homeservers\n- [Hosted Integrations including Slack, IRC, Github bridging](https://element.io/element-matrix-store)\n\nBrought to you by the creators of Matrix, who have been running the biggest homeserver in the network since 2014. Every homeserver comes with a custom instance of Element.\n",
+            "id": 0
+        },
+        {
+            "name": "Ungleich.ch",
+            "website": "https://matrix.zerocarbon.shop",
+            "operating_since": "2020",
+            "description": "* Hosted Homeservers\n* [Bridge solutions: bridging Slack, Telegram, Whatsapp, IRC and more](https://ungleich.ch/en-us/cms/matterbridge-matrix/)\n* [Customised Matrix development: Custom Authentication/Login, Integration into private networks](https://ungleich.ch/u/products/matrix-custom-development/)\n\n\nZero Carbon Matrix is provided by ungleich.ch in Switzerland, in their own\nDatacenter (datacenterlight.ch) with a strong focus on sustainability. Operating\nwithin a repurposed historic building, they utilise pre-owned server systems,\npassive cooling techniques, and 100% renewable energy. ungleich.ch also\nspecialises in customised Matrix development for communities and organisations.\n",
+            "id": 1
+        },
+        {
+            "name": "etke.cc",
+            "website": "https://etke.cc",
+            "operating_since": "TBC",
+            "description": "- Setup of hosted Homeserver on any hosting by your choice\n- Setup of hosted integrations (full list available on website)\n- Setup of additional services (wireguard, languagetool, miniflux, etc.)\n- Ongoing maintenance of host & Matrix components\n- Email services for your domain\n\nThat service will create your Matrix Homeserver on your domain and server (doesn't matter if it's cloud provider or on an old laptop in the corner of your room), (optional) maintains it (server's system updates, cleanup, security adjustments, tuning, etc.; Matrix Homeserver updates & maintenance) and (optional) provide full-featured email service for your domain.\n\n[Matrix Space](https://matrix.to/#/#service:etke.cc)  | [Announcements on Matrix](https://matrix.to/#/#announcements:etke.cc)\n",
+            "id": 2
+        },
+        {
+            "name": "Ossrox",
+            "website": "https://ossrox.org",
+            "operating_since": "TBC",
+            "description": "- Hosted Homeservers\n\nOssrox is a company from Germany dedicated to hosting open-source services. Not only has the company name been derived from the motto \"Open-Source Software Rocks\", but also their corporate culture. The three most important principles of the company are security, privacy and sustainability - thanks to open-source software. In addition to Matrix, Ossrox also provides many other solutions e.g. in the messaging, groupware and web meeting segments.\n",
+            "id": 3
+        },
+        {
+            "name": "Federated Computer",
+            "website": "https://federated.computer",
+            "operating_since": "2022",
+            "description": "- Hosted Homeservers\n\nFederated Computer provides Element and Matrix hosting as part of a team collaboration suite (including Nextcloud, Jitsi, Listmonk, Vaultwarden, Baserow, Gitea, Caddy, Castopod, Wireguard, and single-sign-on LDAP).\n",
+            "id": 4
+        }
+    ]
+}

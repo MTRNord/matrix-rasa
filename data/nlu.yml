@@ -1,0 +1,39 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+    - Hi
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+- intent: query_knowledge_base
+  examples: |
+    - What [matrix clients]{"entity": "object_type", "value": "client"} can you recommend?
+    - Which [features]{"entity": "attribute", "value": "features"} does [element-x]{"entity": "client"} have?
+    - Which [clients]{"entity": "object_type", "value": "client"} can you recommend?
+- synonym: client
+  examples: |
+    - matrix clients
+    - matrix client
+    - client
+    - clients
+- lookup: client
+  examples: |
+    - element
+    - nheko
+    - Fluffychat
