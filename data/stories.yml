@@ -33,13 +33,12 @@ stories:
           - 7
           - 1
           - 14
-
-- story: interactive_story_1
-  steps:
-  - intent: greet
-  - action: utter_welcome_and_warning
-  - intent: query_knowledge_base
-  - intent: query_knowledge_base
-    entities:
-    - licence: MIT
-  - action: action_query_knowledge_base
+  - story: interactive_story_1
+    steps:
+    - intent: greet
+    - action: utter_welcome_and_warning
+    - intent: query_knowledge_base
+    - intent: query_knowledge_base
+      entities:
+      - licence: MIT
+    - action: action_query_knowledge_base
